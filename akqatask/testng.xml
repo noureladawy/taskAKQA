@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="validbirthday" value="11" />
+	<parameter name="validbirthmonth" value="07" />
+	<parameter name="validbirthyear" value="1994" />
+	<parameter name="LessThanEighteenbirthyear" value="2004" />
+	<parameter name="invalidbirthday" value="00" />
+	<parameter name="invalidbirthmonth" value="00" />
+	<parameter name="invalidbirthyear" value="0000" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Tests.HomePgaeTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

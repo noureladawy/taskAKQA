@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T16:33:06 EET" name="Suite" finished-at="2023-05-06T16:33:38 EET" duration-ms="31531">
+    <groups>
+    </groups>
+    <test started-at="2023-05-06T16:33:06 EET" name="Test" finished-at="2023-05-06T16:33:38 EET" duration-ms="31531">
+      <class name="Tests.HomePgaeTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:06 EET" name="init" finished-at="2023-05-06T16:33:17 EET" duration-ms="10365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyValidBirthdateData(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:17 EET" name="verifyValidBirthdateData" finished-at="2023-05-06T16:33:19 EET" duration-ms="1823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidBirthdateData -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:19 EET" name="terminateBrowser" finished-at="2023-05-06T16:33:19 EET" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:19 EET" name="init" finished-at="2023-05-06T16:33:28 EET" duration-ms="9177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLessThanEighteenBirthdateData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:28 EET" name="verifyLessThanEighteenBirthdateData" finished-at="2023-05-06T16:33:28 EET" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLessThanEighteenBirthdateData -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:28 EET" name="terminateBrowser" finished-at="2023-05-06T16:33:28 EET" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:28 EET" name="init" finished-at="2023-05-06T16:33:38 EET" duration-ms="9302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyinvalidBirthdateDay(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:38 EET" name="verifyinvalidBirthdateDay" finished-at="2023-05-06T16:33:38 EET" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyinvalidBirthdateDay -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:Tests.HomePgaeTests@6a28ffa4]" started-at="2023-05-06T16:33:38 EET" name="terminateBrowser" finished-at="2023-05-06T16:33:38 EET" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- Tests.HomePgaeTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
